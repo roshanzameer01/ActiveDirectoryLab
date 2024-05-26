@@ -1,58 +1,29 @@
-<h1>Active Directory Home Lab</h1>
+# 🌟 Setting Up a Basic Home Lab Running Active Directory 
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+## 🎯 Objective: To Set up a home lab with Active Directory using Oracle VirtualBox and add users via PowerShell.
 
-<h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
-<br />
+## 🛠️ Tools Used
+- **Oracle VirtualBox**
+- **Windows Server ISO**
+- **PowerShell**
 
+## 📚 Skills Learned
+- Installing and configuring a virtual machine
+- Setting up Active Directory
+- Adding users with PowerShell
 
-<h2>Languages and Utilities Used</h2>
+## 📝 Steps
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+### 1. 🔧 Preparation
+- Download and install **Oracle VirtualBox**.
+- Obtain a **Windows Server ISO** file.
 
-<h2>Environments Used </h2>
+### 2. 👀 Observation
+- **Create** a new virtual machine in VirtualBox.
+- **Install** Windows Server on the virtual machine.
+- **Configure** the server with Active Directory Domain Services (AD DS).
+- **Use PowerShell** to add users to the Active Directory.
 
-- <b>Windows 10</b> (21H2)
-
-<h2>Program walk-through:</h2>
-
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+### 3. ✅ Conclusion
+- **Verify** the Active Directory setup by logging in with the newly created users.
+- **Ensure** all configurations are working properly.
